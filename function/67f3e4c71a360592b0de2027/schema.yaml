@@ -1,0 +1,16 @@
+_id: 67f3e4c71a360592b0de2027
+name: Clone Server - Receiver side
+language: javascript
+timeout: 300
+memoryLimit: 100
+triggers:
+  receiver:
+    type: http
+    active: true
+    options:
+      method: Post
+      path: /receiver
+      preflight: true
+env_vars:
+  - 67f3e4a8c6b67a92723864ab
+  - 67f3e48cae9522924157a478

@@ -1,0 +1,7 @@
+_id: 67f3e4551824ea91d40c2eac
+name: Secret Api Key Receiver Side
+active: true
+key: 135jfdsulm976l0yl
+policies:
+  - BucketFullAccess
+  - FunctionFullAccess
